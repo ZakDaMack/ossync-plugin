@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-sample-plugin",
-	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"name": "obsidian-freeesync",
+	"version": "0.1.0",
+	"description": "This is a plugin for Obsidian FreeSync. Requires a connection to Obsidian FreeSync Server. Can be hosted via docker here: N/A",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
