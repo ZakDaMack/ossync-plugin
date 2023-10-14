@@ -1,0 +1,11 @@
+{
+	"id": "ossync",
+	"name": "OSSync",
+	"version": "0.1.0",
+	"minAppVersion": "0.15.0",
+	"description": "This is a plugin for OSSync. Requires a connection to OSSync Server. Can be hosted via docker here: N/A",
+	"author": "ZakDaMack",
+	"authorUrl": "https://github.com/ZakDaMack",
+	"fundingUrl": "",
+	"isDesktopOnly": false
+}
