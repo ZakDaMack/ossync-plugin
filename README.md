@@ -1,8 +1,8 @@
-# Obsidian FreeSync
+# OSSync
 
-This is a plugin for Obsidian FreeSync.
+This is a plugin for OSSync.
 
-Requires a FreeSync server to connect to which can be set up via docker.
+Requires a OSSync server to connect to which can be set up via docker.
 
 ## Getting started
 

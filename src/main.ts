@@ -16,7 +16,7 @@ const DEFAULT_SETTINGS: MyPluginSettings = {
 	interval: 5
 }
 
-export default class MyPlugin extends Plugin {
+export default class OSSyncPlugin extends Plugin {
 	// FIELDS
 	settings: MyPluginSettings;
 	lastSynced: Date;
@@ -141,7 +141,7 @@ export default class MyPlugin extends Plugin {
 
 }
 
-class SampleSettingTab extends PluginSettingTab {
+class OSSyncSettingTab extends PluginSettingTab {
 	plugin: MyPlugin;
 
 	constructor(app: App, plugin: MyPlugin) {
@@ -168,7 +168,7 @@ class SampleSettingTab extends PluginSettingTab {
 		// username
 		new Setting(containerEl)
 		.setName('Username')
-		.setDesc('Enter your username to access ObsidianFreeSync.')
+		.setDesc('Enter your username to access ObsidianOSSync.')
 		.addText(text => text
 			.setPlaceholder('admin')
 			.setValue(this.plugin.settings.username)

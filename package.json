@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-freeesync",
+	"name": "ossync",
 	"version": "0.1.0",
-	"description": "This is a plugin for Obsidian FreeSync. Requires a connection to Obsidian FreeSync Server. Can be hosted via docker here: N/A",
+	"description": "This is a plugin for OSSync. Requires a connection to OSSync Server. Can be hosted via docker here: N/A",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
